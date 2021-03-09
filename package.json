@@ -1,0 +1,35 @@
+{
+  "name": "@kvass/card",
+  "version": "0.0.0-development",
+  "description": "card component for kvass",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\"",
+    "semantic-release": "dotenv semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kvass-App/card.git"
+  },
+  "keywords": [
+    "card",
+    "kvass"
+  ],
+  "author": "carsten@kvass.no",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kvass-App/card/issues"
+  },
+  "homepage": "https://github.com/Kvass-App/card#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "dotenv-cli": "^4.0.0",
+    "semantic-release-cli": "^5.4.3",
+    "semantic-release": "^17.4.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
