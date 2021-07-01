@@ -64,7 +64,7 @@ export default {
 
 <style lang="scss">
 .kvass-card {
-  --kvass-card-card-spacing: 1.75rem;
+  --kvass-card-spacing: 1.75rem;
   --kvass-card-border-radius: var(--border-radius, 3px);
 
   $background-grey: darken(white, 4%);
