@@ -72,16 +72,6 @@ export default {
   $box-shadow: 0 15px 15px -5px darken($background-grey, 6%);
   $card-background: mix($border-color, white, 20%);
 
-  @mixin gap($size) {
-    margin-left: -($size * 2);
-    margin-bottom: -($size * 2);
-
-    & > * {
-      margin-left: ($size * 2);
-      margin-bottom: ($size * 2);
-    }
-  }
-
   display: flex;
   flex-direction: column;
   border-radius: var(--kvass-card-border-radius);
@@ -143,7 +133,7 @@ export default {
       display: flex;
       flex-wrap: wrap;
 
-      @include gap(0.5rem);
+      gap: 1rem;
     }
   }
 }
